@@ -1,0 +1,15 @@
+# --- پوشه‌های سنگین و سیستمی ---
+venv/
+__pycache__/
+frontend/node_modules/
+frontend/.next/
+
+# --- فایل‌های امنیتی و محرمانه ---
+.env
+.env.*
+*.pem
+*.key
+
+# --- فایل‌های سیستمی سیستم‌عامل ---
+.DS_Store
+Thumbs.db
